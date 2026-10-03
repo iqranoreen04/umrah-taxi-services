@@ -66,12 +66,12 @@ export default function Footer() {
           <div className="col-span-2 md:col-span-3 lg:col-span-2">
             <Link href="/" className="flex items-center gap-2.5 mb-5">
               <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-emerald to-emerald-dark flex items-center justify-center">
-                <span className="text-white font-display font-bold text-lg">S</span>
+                <span className="text-white font-display font-bold text-lg">{siteConfig.logoLetter}</span>
               </div>
               <div className="flex flex-col leading-none">
-                <span className="font-display font-bold text-lg">Safwa Rihla</span>
+                <span className="font-display font-bold text-lg">{siteConfig.shortName}</span>
                 <span className="text-[10px] uppercase tracking-[0.15em] text-white/50">
-                  Umrah Transport
+                  {siteConfig.subtitle}
                 </span>
               </div>
             </Link>
@@ -81,7 +81,7 @@ export default function Footer() {
             </p>
             <div className="space-y-2.5 text-sm">
               <a
-                href={`tel:${siteConfig.phone}`}
+                href={siteConfig.phoneHref}
                 className="flex items-center gap-2.5 text-white/70 hover:text-white transition-colors"
               >
                 <Phone className="w-4 h-4 text-gold shrink-0" />
@@ -226,6 +226,12 @@ export default function Footer() {
               <h4 className="font-semibold text-sm mb-1">Stay Updated</h4>
               <p className="text-white/50 text-xs">
                 Get travel tips and special offers for your Umrah journey.
+              </p>
+              <p className="text-white/50 text-xs mt-1">
+                Call / WhatsApp:{" "}
+                <a href={siteConfig.phoneHref} className="text-gold hover:underline">{siteConfig.phone}</a>
+                {" · "}
+                <a href={`mailto:${siteConfig.email}`} className="text-gold hover:underline">{siteConfig.email}</a>
               </p>
             </div>
             <form className="flex gap-2 w-full md:w-auto">

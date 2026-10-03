@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { ArrowRight, MessageCircle, Crown, Landmark, Building2 } from "lucide-react";
+import { siteConfig } from "@/lib/site-config";
 import Hero from "@/components/site/hero";
 import BookingWidget from "@/components/site/booking-widget";
 import StatsCounter from "@/components/site/stats-counter";
@@ -243,7 +244,7 @@ export default function Home() {
                     <ArrowRight className="w-4 h-4" />
                   </Link>
                   <a
-                    href="https://wa.me/966500000000"
+                    href={`https://wa.me/${siteConfig.whatsapp}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-6 py-3.5 rounded-full border border-white/20 text-white font-semibold hover:bg-white/10 transition-colors"

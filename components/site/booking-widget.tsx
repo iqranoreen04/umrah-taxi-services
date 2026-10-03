@@ -19,7 +19,7 @@ import {
 } from "lucide-react";
 import { routes } from "@/lib/data/routes";
 import { vehicles } from "@/lib/data/vehicles";
-import { buildWhatsAppBookingLink } from "@/lib/site-config";
+import { buildWhatsAppBookingLink, siteConfig } from "@/lib/site-config";
 
 const routeOptions = routes.map((r) => ({
   label: `${r.from} → ${r.to}`,
@@ -385,6 +385,21 @@ export default function BookingWidget({ variant = "full" }: BookingWidgetProps) 
                 <MessageCircle className="w-4 h-4" />
                 Book via WhatsApp
               </button>
+            </div>
+            {/* Direct contact */}
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-x-6 gap-y-2 pt-3 border-t border-border text-sm text-muted-foreground">
+              <a href={siteConfig.phoneHref} className="inline-flex items-center gap-1.5 hover:text-emerald transition-colors">
+                <Phone className="w-4 h-4 text-emerald" />
+                {siteConfig.phone}
+              </a>
+              <a href={`https://wa.me/${siteConfig.whatsapp}`} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 hover:text-emerald transition-colors">
+                <MessageCircle className="w-4 h-4 text-[#25D366]" />
+                WhatsApp
+              </a>
+              <a href={`mailto:${siteConfig.email}`} className="inline-flex items-center gap-1.5 hover:text-emerald transition-colors">
+                <Mail className="w-4 h-4 text-emerald" />
+                {siteConfig.email}
+              </a>
             </div>
           </motion.form>
         )}

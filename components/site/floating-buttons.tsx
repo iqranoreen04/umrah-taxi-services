@@ -19,7 +19,7 @@ export default function FloatingButtons() {
       <AnimatePresence>
         {show && (
           <motion.a
-            href={`tel:${siteConfig.phone}`}
+            href={siteConfig.phoneHref}
             initial={{ scale: 0, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             exit={{ scale: 0, opacity: 0 }}

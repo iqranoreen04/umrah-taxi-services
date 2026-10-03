@@ -17,7 +17,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Key factors to consider when selecting transportation for your Umrah journey, from vehicle quality to driver professionalism and booking convenience.",
     category: "Umrah Travel",
-    author: "Safwa Rihla Team",
+    author: "Murhabba Umrah Taxi Team",
     date: "2025-08-15",
     readingTime: "5 min read",
     image:
@@ -28,7 +28,7 @@ export const blogPosts: BlogPost[] = [
       "The second factor is vehicle quality. Your vehicle should be clean, air-conditioned, and well-maintained. For long intercity journeys like Makkah to Madinah, comfort matters greatly. Make sure the vehicle has enough space for your luggage and your entire group.",
       "The third factor is driver professionalism. Your driver should be experienced, respectful, and able to communicate in a language you understand. They should know the routes well and be willing to stop for prayer or rest when you need.",
       "Finally, consider booking convenience. The best services offer multiple ways to book, including WhatsApp, online forms, and phone calls. Transparent pricing with no hidden fees is also essential. Always ask for a quote before confirming.",
-      "At Safwa Rihla, we strive to meet all these standards. Our fleet is well-maintained, our drivers are experienced, and our booking process is designed to be as simple as possible. We invite you to experience the difference.",
+      "At Murhabba Umrah Taxi Service, we strive to meet all these standards. Our fleet is well-maintained, our drivers are experienced, and our booking process is designed to be as simple as possible. We invite you to experience the difference.",
     ],
   },
   {
@@ -37,7 +37,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Everything you need to know about getting from King Abdulaziz International Airport to Makkah, including distance, travel time, costs, and the best transportation options.",
     category: "Transportation Tips",
-    author: "Safwa Rihla Team",
+    author: "Murhabba Umrah Taxi Team",
     date: "2025-08-10",
     readingTime: "6 min read",
     image:
@@ -57,7 +57,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Comparing private taxi, bus, and train options for traveling from Makkah to Madinah, with pros and cons of each to help you decide.",
     category: "Transportation Tips",
-    author: "Safwa Rihla Team",
+    author: "Murhabba Umrah Taxi Team",
     date: "2025-08-05",
     readingTime: "7 min read",
     image:
@@ -77,7 +77,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "A practical guide to choosing the right vehicle and service for families traveling for Umrah, with tips on child seats, luggage, and comfort.",
     category: "Family Travel",
-    author: "Safwa Rihla Team",
+    author: "Murhabba Umrah Taxi Team",
     date: "2025-07-28",
     readingTime: "5 min read",
     image:
@@ -98,7 +98,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Important tips and considerations before booking transportation for your Umrah trip, from pricing to vehicle selection and what to expect.",
     category: "Umrah Travel",
-    author: "Safwa Rihla Team",
+    author: "Murhabba Umrah Taxi Team",
     date: "2025-07-20",
     readingTime: "4 min read",
     image:
@@ -106,7 +106,7 @@ export const blogPosts: BlogPost[] = [
     content: [
       "Booking transportation for Umrah is straightforward, but there are a few things worth knowing to ensure a smooth experience.",
       "First, understand that prices are per vehicle, not per person. This means a group of 4 in a sedan pays the same as a single traveler in the same vehicle. For families and groups, this makes private transfers very cost-effective.",
-      "Second, always confirm whether the price includes all services. Some providers charge extra for airport meet-and-greet, flight tracking, or bottled water. At Safwa Rihla, these are always included.",
+      "Second, always confirm whether the price includes all services. Some providers charge extra for airport meet-and-greet, flight tracking, or bottled water. At Murhabba Umrah Taxi Service, these are always included.",
       "Third, consider the timing of your trip. During Ramadan and the Hajj season, demand is much higher and prices may increase. Book as early as possible during these periods.",
       "Fourth, make sure you provide accurate flight information when booking an airport pickup. This allows the company to track your flight and adjust for delays or early arrivals.",
       "Fifth, keep the driver's contact number handy. While our team will reach out to you, having the number ensures you can contact the driver directly if needed, especially in busy airport pickup areas.",
@@ -119,7 +119,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "An informative guide to the most significant historical and religious sites around Makkah that you can visit during your Umrah journey.",
     category: "Ziyarat",
-    author: "Safwa Rihla Team",
+    author: "Murhabba Umrah Taxi Team",
     date: "2025-07-15",
     readingTime: "6 min read",
     image:

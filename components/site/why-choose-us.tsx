@@ -12,7 +12,7 @@ export default function WhyChooseUs() {
       <div className="container-mx container-px">
         <SectionHeading
           eyebrow="Why Pilgrims Trust Us"
-          title="Why Choose Safwa Rihla"
+          title="Why Choose Murhabba Umrah Taxi Service"
           description="We understand the importance of your journey and are committed to making every mile comfortable."
         />
 

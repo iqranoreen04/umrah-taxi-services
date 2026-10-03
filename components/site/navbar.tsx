@@ -49,7 +49,7 @@ export default function Navbar() {
               <div className="relative">
                 <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-emerald to-emerald-dark flex items-center justify-center shadow-lg shadow-emerald/20 transition-transform group-hover:scale-105">
                   <span className="text-white font-display font-bold text-lg">
-                    S
+                    {siteConfig.logoLetter}
                   </span>
                 </div>
                 <div className="absolute -bottom-0.5 -right-0.5 w-3.5 h-3.5 rounded-full bg-gold border-2 border-background" />
@@ -61,7 +61,7 @@ export default function Navbar() {
                     scrolled ? "text-foreground" : "text-white"
                   )}
                 >
-                  Safwa Rihla
+                  {siteConfig.shortName}
                 </span>
                 <span
                   className={cn(
@@ -69,7 +69,7 @@ export default function Navbar() {
                     scrolled ? "text-muted-foreground" : "text-white/70"
                   )}
                 >
-                  Umrah Transport
+                  {siteConfig.subtitle}
                 </span>
               </div>
             </Link>
@@ -108,7 +108,7 @@ export default function Navbar() {
             {/* Right actions */}
             <div className="flex items-center gap-2">
               <a
-                href={`tel:${siteConfig.phone}`}
+                href={siteConfig.phoneHref}
                 className={cn(
                   "hidden sm:flex items-center justify-center w-10 h-10 rounded-full border transition-colors",
                   scrolled
@@ -177,9 +177,9 @@ export default function Navbar() {
               <div className="flex items-center justify-between p-5 border-b border-border">
                 <div className="flex items-center gap-2.5">
                   <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-emerald to-emerald-dark flex items-center justify-center">
-                    <span className="text-white font-display font-bold">S</span>
+                    <span className="text-white font-display font-bold">{siteConfig.logoLetter}</span>
                   </div>
-                  <span className="font-display font-bold text-lg">Safwa Rihla</span>
+                  <span className="font-display font-bold text-lg">{siteConfig.shortName}</span>
                 </div>
                 <button
                   onClick={() => setMobileOpen(false)}
@@ -220,7 +220,7 @@ export default function Navbar() {
               <div className="p-5 border-t border-border space-y-3">
                 <div className="flex gap-3">
                   <a
-                    href={`tel:${siteConfig.phone}`}
+                    href={siteConfig.phoneHref}
                     className="flex-1 flex items-center justify-center gap-2 py-3 rounded-xl border border-border text-sm font-medium hover:bg-muted transition-colors"
                   >
                     <Phone className="w-4 h-4" />
