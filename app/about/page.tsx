@@ -115,7 +115,7 @@ export default function AboutPage() {
               </h2>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  Murhabba Umrah Taxi Service began with a simple observation: pilgrims arriving
+                  Marhaba Umrah Taxi Service began with a simple observation: pilgrims arriving
                   in Saudi Arabia for Umrah and Hajj often struggled to find
                   reliable, comfortable transportation. After long flights,
                   they faced uncertain waits, unfamiliar roads, and vehicles
