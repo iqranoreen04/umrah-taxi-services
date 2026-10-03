@@ -65,7 +65,7 @@ export const packages: Package[] = [
     vehicleOptions: ["GMC Yukon", "Mercedes V-Class (on request)"],
     popular: true,
     image:
-      "https://images.pexels.com/photos/36498953/pexels-photo-36498953.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "/images/fleet/gmc-yukon.jpeg",
   },
   {
     slug: "airport-hotel-transfer-package",

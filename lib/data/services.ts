@@ -67,7 +67,7 @@ export const services: Service[] = [
     description:
       "Premium chauffeur service with luxury vehicles for VIP guests who expect the highest standard of comfort.",
     image:
-      "https://images.pexels.com/photos/36498953/pexels-photo-36498953.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "/images/fleet/gmc-yukon.jpeg",
     href: "/services#vip-transportation",
   },
   {
@@ -94,7 +94,7 @@ export const services: Service[] = [
     description:
       "Book a professional chauffeur by the hour for flexible, on-demand transportation around the holy cities.",
     image:
-      "https://images.pexels.com/photos/36377043/pexels-photo-36377043.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "/images/fleet/ford-taurus.jpeg",
     href: "/services#hourly-chauffeur",
   },
   {
@@ -103,7 +103,7 @@ export const services: Service[] = [
     description:
       "Door-to-door transfers between your hotel and any destination in Makkah, Madinah, or Jeddah.",
     image:
-      "https://images.pexels.com/photos/3894066/pexels-photo-3894066.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "/images/fleet/toyota-camry.jpeg",
     href: "/services#hotel-transfers",
   },
   {

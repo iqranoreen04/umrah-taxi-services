@@ -102,7 +102,7 @@ export const blogPosts: BlogPost[] = [
     date: "2025-07-20",
     readingTime: "4 min read",
     image:
-      "https://images.pexels.com/photos/36377043/pexels-photo-36377043.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "/images/fleet/toyota-camry.jpeg",
     content: [
       "Booking transportation for Umrah is straightforward, but there are a few things worth knowing to ensure a smooth experience.",
       "First, understand that prices are per vehicle, not per person. This means a group of 4 in a sedan pays the same as a single traveler in the same vehicle. For families and groups, this makes private transfers very cost-effective.",

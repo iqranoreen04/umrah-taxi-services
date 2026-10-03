@@ -9,14 +9,8 @@ export default function Hero() {
   return (
     <section className="relative min-h-[100vh] flex items-center overflow-hidden">
       {/* Background */}
-      <div className="absolute inset-0 z-0">
-        <img
-          src="https://images.pexels.com/photos/39375299/pexels-photo-39375299.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&dpr=2"
-          alt="Premium vehicle on Saudi highway"
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 hero-overlay" />
-        <div className="absolute inset-0 bg-gradient-to-r from-emerald-dark/60 via-transparent to-transparent" />
+      <div className="absolute inset-0 z-0 bg-gradient-to-br from-emerald-dark via-emerald-dark to-emerald">
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_75%_50%,hsl(var(--gold)/0.18),transparent_60%)]" />
       </div>
 
       {/* Floating particles */}
@@ -43,7 +37,7 @@ export default function Hero() {
       </div>
 
       {/* Content */}
-      <div className="container-mx container-px relative z-10 pt-24 pb-12">
+      <div className="container-mx container-px relative z-10 pt-24 pb-12 grid lg:grid-cols-[1.15fr_1fr] gap-12 items-center">
         <div className="max-w-3xl">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -61,7 +55,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.1 }}
-            className="font-display text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-white leading-[1.1] text-balance text-shadow-lg"
+            className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-[1.1] text-balance text-shadow-lg"
           >
             Your Journey to the Holy Cities,{" "}
             <span className="gradient-gold-text">Made Comfortable</span>
@@ -130,6 +124,37 @@ export default function Hero() {
             ))}
           </motion.div>
         </div>
+
+        {/* Featured fleet vehicle */}
+        <motion.div
+          initial={{ opacity: 0, x: 40 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.8, delay: 0.4 }}
+          className="hidden lg:block"
+        >
+          <div className="rounded-3xl bg-white p-6 shadow-2xl border border-gold/30">
+            <img
+              src="/images/fleet/gmc-yukon.jpeg"
+              alt="GMC Yukon from our premium fleet"
+              className="w-full h-auto object-contain"
+            />
+            <div className="mt-4 flex items-center justify-between">
+              <div>
+                <p className="text-xs uppercase tracking-wider text-muted-foreground">
+                  Premium SUV
+                </p>
+                <p className="font-display text-xl font-bold">GMC Yukon</p>
+              </div>
+              <Link
+                href="/fleet/gmc-yukon"
+                className="inline-flex items-center gap-1.5 text-sm font-medium text-emerald hover:gap-2.5 transition-all"
+              >
+                View details
+                <ArrowRight className="w-4 h-4" />
+              </Link>
+            </div>
+          </div>
+        </motion.div>
       </div>
 
       {/* Scroll indicator */}

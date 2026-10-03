@@ -267,11 +267,11 @@ export default function AboutPage() {
               transition={{ duration: 0.6 }}
               className="relative"
             >
-              <div className="rounded-3xl overflow-hidden shadow-2xl">
+              <div className="rounded-3xl overflow-hidden shadow-2xl bg-white">
                 <img
-                  src="https://images.pexels.com/photos/36377043/pexels-photo-36377043.jpeg?auto=compress&cs=tinysrgb&w=1260&h=900&dpr=2"
-                  alt="Professional chauffeur"
-                  className="w-full h-[500px] object-cover"
+                  src="/images/fleet/toyota-camry.jpeg"
+                  alt="Toyota Camry from our fleet"
+                  className="w-full h-[500px] object-contain"
                 />
               </div>
             </motion.div>

@@ -254,11 +254,11 @@ export default function Home() {
                   </a>
                 </div>
               </div>
-              <div className="relative h-64 lg:h-80 rounded-2xl overflow-hidden">
+              <div className="relative h-64 lg:h-80 rounded-2xl overflow-hidden bg-white">
                 <img
-                  src="https://images.pexels.com/photos/36498953/pexels-photo-36498953.jpeg?auto=compress&cs=tinysrgb&w=1260&h=800&dpr=2"
-                  alt="VIP chauffeur service"
-                  className="w-full h-full object-cover"
+                  src="/images/fleet/hyundai-staria.jpeg"
+                  alt="Hyundai Staria VIP van"
+                  className="w-full h-full object-contain"
                 />
               </div>
             </div>
