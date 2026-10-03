@@ -14,11 +14,11 @@ export default function VehicleCard({ vehicle }: { vehicle: Vehicle }) {
       transition={{ duration: 0.3 }}
       className="group relative overflow-hidden rounded-2xl bg-white border border-border card-shadow hover:card-shadow-hover transition-shadow"
     >
-      <div className="relative h-52 overflow-hidden bg-muted">
+      <div className="relative h-52 overflow-hidden bg-white">
         <img
           src={vehicle.image}
           alt={vehicle.name}
-          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+          className="w-full h-full object-contain p-4 pt-10 transition-transform duration-500 group-hover:scale-105"
         />
         <span className="absolute top-3 left-3 px-3 py-1 rounded-full bg-white/90 backdrop-blur text-xs font-semibold text-emerald">
           {vehicle.category}

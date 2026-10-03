@@ -132,7 +132,7 @@ export const packages: Package[] = [
       "Professional driver",
       "Coordination for group leaders",
     ],
-    vehicleOptions: ["Toyota Hiace", "Toyota Coaster", "Large Bus"],
+    vehicleOptions: ["Toyota Hiace", "Toyota Coaster", "King Long Bus"],
     image:
       "https://images.pexels.com/photos/20277839/pexels-photo-20277839.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
   },
@@ -150,7 +150,7 @@ export const packages: Package[] = [
       "Group coordination",
       "Flexible scheduling",
     ],
-    vehicleOptions: ["Toyota Coaster", "Large Bus"],
+    vehicleOptions: ["Toyota Coaster", "King Long Bus"],
     popular: true,
     image:
       "https://images.pexels.com/photos/38546878/pexels-photo-38546878.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",

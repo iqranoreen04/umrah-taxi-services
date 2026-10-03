@@ -88,7 +88,7 @@ export const pricingCategories: PricingCategory[] = [
     items: [
       { route: "Van (12 seats)", sedan: "—", suv: "—", van: 200, minibus: "—", bus: "—" },
       { route: "Coaster (22 seats)", sedan: "—", suv: "—", van: "—", minibus: 350, bus: "—" },
-      { route: "Large Bus (45 seats)", sedan: "—", suv: "—", van: "—", minibus: "—", bus: 600 },
+      { route: "King Long Bus (45 seats)", sedan: "—", suv: "—", van: "—", minibus: "—", bus: 600 },
     ],
   },
 ];

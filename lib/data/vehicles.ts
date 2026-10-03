@@ -19,7 +19,7 @@ export const vehicles: Vehicle[] = [
     name: "Toyota Camry",
     category: "Sedan",
     image:
-      "https://images.pexels.com/photos/11285174/pexels-photo-11285174.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "/images/fleet/toyota-camry.jpeg",
     passengers: 4,
     luggage: 3,
     fuelType: "Petrol / Hybrid",
@@ -37,11 +37,33 @@ export const vehicles: Vehicle[] = [
       "A reliable and comfortable sedan perfect for individuals, couples, and small families. The Toyota Camry offers a smooth ride with ample legroom and modern amenities.",
   },
   {
+    slug: "ford-taurus",
+    name: "Ford Taurus",
+    category: "Sedan",
+    image: "/images/fleet/ford-taurus.jpeg",
+    passengers: 4,
+    luggage: 3,
+    fuelType: "Petrol",
+    transmission: "Automatic",
+    idealFor: "Individuals, couples, and small families",
+    startingPrice: 160,
+    features: [
+      "Air conditioning",
+      "Spacious rear legroom",
+      "Comfortable leather seats",
+      "Phone charging",
+      "Bottled water",
+      "English & Arabic speaking driver",
+    ],
+    description:
+      "A stylish, modern sedan with a spacious cabin and a smooth, quiet ride. The Ford Taurus is a comfortable choice for individuals, couples, and small families travelling between Makkah, Madinah, and Jeddah.",
+  },
+  {
     slug: "gmc-yukon",
     name: "GMC Yukon",
     category: "Premium SUV",
     image:
-      "https://images.pexels.com/photos/14471686/pexels-photo-14471686.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "/images/fleet/gmc-yukon.jpeg",
     passengers: 7,
     luggage: 5,
     fuelType: "Petrol",
@@ -64,7 +86,7 @@ export const vehicles: Vehicle[] = [
     name: "Hyundai Staria",
     category: "Premium Van",
     image:
-      "https://images.pexels.com/photos/39075475/pexels-photo-39075475.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "/images/fleet/hyundai-staria.jpeg",
     passengers: 9,
     luggage: 8,
     fuelType: "Diesel",
@@ -87,7 +109,7 @@ export const vehicles: Vehicle[] = [
     name: "Toyota Hiace",
     category: "Van",
     image:
-      "https://images.pexels.com/photos/35491084/pexels-photo-35491084.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "/images/fleet/toyota-hiace.jpeg",
     passengers: 12,
     luggage: 10,
     fuelType: "Diesel",
@@ -109,7 +131,7 @@ export const vehicles: Vehicle[] = [
     name: "Toyota Coaster",
     category: "Mini Bus",
     image:
-      "https://images.pexels.com/photos/16180485/pexels-photo-16180485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "/images/fleet/toyota-coaster.jpeg",
     passengers: 22,
     luggage: 20,
     fuelType: "Diesel",
@@ -128,10 +150,10 @@ export const vehicles: Vehicle[] = [
   },
   {
     slug: "bus",
-    name: "Large Bus",
+    name: "King Long Bus",
     category: "Bus",
     image:
-      "https://images.pexels.com/photos/29566879/pexels-photo-29566879.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "/images/fleet/king-long-bus.jpeg",
     passengers: 45,
     luggage: 45,
     fuelType: "Diesel",
@@ -147,7 +169,7 @@ export const vehicles: Vehicle[] = [
       "Ideal for Hajj groups",
     ],
     description:
-      "A full-size bus for large groups and tour operators. Ideal for Hajj and Umrah groups, with comfortable reclining seats and large luggage compartments.",
+      "A full-size King Long coach for large groups and tour operators. Ideal for Hajj and Umrah groups, with comfortable reclining seats and large luggage compartments.",
   },
 ];
 
