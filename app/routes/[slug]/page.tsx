@@ -1,6 +1,5 @@
 "use client";
 
-import { use } from "react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { motion } from "framer-motion";
@@ -22,9 +21,9 @@ import { fadeInUp, staggerContainer } from "@/lib/motion";
 export default function RouteDetailPage({
   params,
 }: {
-  params: Promise<{ slug: string }>;
+  params: { slug: string };
 }) {
-  const { slug } = use(params);
+  const { slug } = params;
   const route = getRoute(slug);
   if (!route) notFound();
 

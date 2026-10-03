@@ -1,7 +1,7 @@
 export interface FAQ {
   question: string;
   answer: string;
-  category: string;
+  category?: string;
 }
 
 export const faqs: FAQ[] = [

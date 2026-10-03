@@ -71,7 +71,7 @@ export default function ServicesPage() {
             description="Every service comes with our commitment to comfort, reliability, and respect."
           />
           <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {services.slice(0, 6).map((s, i) => (
+            {services.filter((s) => s.href.startsWith("/services")).map((s, i) => (
               <motion.div
                 key={s.title}
                 initial={{ opacity: 0, y: 20 }}
