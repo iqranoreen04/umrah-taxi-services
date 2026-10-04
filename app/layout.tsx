@@ -4,6 +4,7 @@ import { Inter, Playfair_Display } from "next/font/google";
 import Navbar from "@/components/site/navbar";
 import Footer from "@/components/site/footer";
 import FloatingButtons from "@/components/site/floating-buttons";
+import { LanguageProvider } from "@/components/site/language-provider";
 import { siteConfig } from "@/lib/site-config";
 
 const inter = Inter({
@@ -65,12 +66,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${inter.variable} ${playfair.variable}`}>
+    <html lang="en" dir="ltr" className={`${inter.variable} ${playfair.variable}`} suppressHydrationWarning>
       <body className="font-sans antialiased">
-        <Navbar />
-        <main>{children}</main>
-        <Footer />
-        <FloatingButtons />
+        <LanguageProvider>
+          <Navbar />
+          <main>{children}</main>
+          <Footer />
+          <FloatingButtons />
+        </LanguageProvider>
       </body>
     </html>
   );

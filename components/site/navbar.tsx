@@ -7,6 +7,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Phone, MessageCircle, ChevronRight } from "lucide-react";
 import { siteConfig } from "@/lib/site-config";
 import { cn } from "@/lib/utils";
+import LanguageSwitcher from "@/components/site/language-switcher";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -107,6 +108,7 @@ export default function Navbar() {
 
             {/* Right actions */}
             <div className="flex items-center gap-2">
+              <LanguageSwitcher inverted={!scrolled} />
               <a
                 href={siteConfig.phoneHref}
                 className={cn(
@@ -191,6 +193,9 @@ export default function Navbar() {
               </div>
               <div className="flex-1 overflow-y-auto py-4">
                 <div className="flex flex-col gap-1 px-3">
+                  <div className="px-1 pb-3">
+                    <LanguageSwitcher mobile />
+                  </div>
                   {siteConfig.nav.map((item, i) => {
                     const active = pathname === item.href;
                     return (
